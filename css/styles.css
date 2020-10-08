@@ -1,0 +1,27 @@
+body {
+    background-color: #f1f1e5;
+}
+
+.ticket {
+    width: 900px;
+    height: 500px;
+    background-color: #ce9750;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.left-side {
+    background-color: #4957d8;
+    margin: 25px 5px 20px 30px;
+}
+
+.right-side {
+    background-color: #ca6066;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    transform: rotate(90deg);
+}
