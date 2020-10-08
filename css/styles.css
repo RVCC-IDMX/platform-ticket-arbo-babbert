@@ -25,3 +25,9 @@ body {
     justify-content: center;
     transform: rotate(90deg);
 }
+
+.left-words-one {
+    border-style: solid;
+    border-width: 1px;
+
+}
