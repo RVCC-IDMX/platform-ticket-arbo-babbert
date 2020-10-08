@@ -14,6 +14,7 @@ hr{
     grid-template-columns: 2fr 1fr;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px;
+    text-align: center;
 }
 
 .left-side {
@@ -24,10 +25,7 @@ hr{
 .right-side {
     background-color: #ca6066;
     margin: 20px 20px 20px 20px;
-    display: flex;
-    flex-flow: column-reverse wrap-reverse;
-    justify-content: center;
-    transform: rotate(90deg);
+    writing-mode: vertical-rl;
 }
 
 .left-words-one {
