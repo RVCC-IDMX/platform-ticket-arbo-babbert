@@ -39,6 +39,24 @@ hr{
          url('../fonts/merriweather-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Gothic A1 Bold'), local('GothicA1-Bold'),
+         url('../fonts/gothic-a1-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/gothic-a1-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Gothic A1 Black'), local('GothicA1-Black'),
+         url('../fonts/gothic-a1-v8-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/gothic-a1-v8-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 .ticket {
     width: 900px;
     height: 500px;
@@ -91,6 +109,13 @@ hr{
     border-top: none;
     border-width: 1px;
 }
+
+.right-words-five {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+}
+
 .left-words-one {
     border-style: solid;
     border-width: 1px;
@@ -99,6 +124,12 @@ hr{
 
 .left-words-two {
     font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.left-words-three {
+    font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 700;
 }
