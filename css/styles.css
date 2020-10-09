@@ -13,6 +13,13 @@ hr{
     font-weight: normal;
     font-style: normal;
   }
+@font-face{
+    font-family: "MunsonBold";
+    src: url("../fonts/MunsonBold.woff2") format("woff2"),
+    url("../fonts/MunsonBold.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
 .ticket {
     width: 900px;
     height: 500px;
@@ -42,6 +49,7 @@ hr{
     border-width: 1px;
 }
 .right-words-two{
+    font-family: "MunsonBold";
     border-style: solid;
     border-bottom-style: none;
     border-right: none;
@@ -49,6 +57,7 @@ hr{
     border-width: 1px;
 }
 .right-words-three{
+    font-family: "MunsonBold";
     border-style: solid;
     border-bottom-style: none;
     border-right: none;
