@@ -66,6 +66,15 @@ hr{
          url('../fonts/alfa-slab-one-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+@font-face {
+    font-family: 'Special Elite';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Special Elite Regular'), local('SpecialElite-Regular'),
+         url('../fonts/special-elite-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/special-elite-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 .ticket {
     width: 900px;
     height: 500px;
@@ -88,6 +97,9 @@ hr{
     writing-mode: vertical-rl;
 }
 .right-words-one{
+    font-family: 'Special Elite';
+    font-style: normal;
+    font-weight: 400;
     border-style: solid;
     border-bottom-style: none;
     border-left: none;
@@ -145,6 +157,12 @@ hr{
 
 .left-words-five {
     font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.left-words-six {
+    font-family: 'Special Elite';
     font-style: normal;
     font-weight: 400;
 }
