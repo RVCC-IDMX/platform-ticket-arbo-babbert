@@ -80,7 +80,7 @@ hr{
     height: 500px;
     background-color: #ce9750;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 725px 1fr;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px;
     text-align: center;
@@ -93,7 +93,7 @@ hr{
 
 .right-side {
     background-color: #ca6066;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 0px;
     writing-mode: vertical-rl;
 }
 .right-words-one{
@@ -105,6 +105,7 @@ hr{
     border-left: none;
     border-top: none;
     border-width: 1px;
+    margin-right: 160px;
 }
 .right-words-two{
     font-family: "MunsonBold";
@@ -139,8 +140,7 @@ hr{
 
 .left-words-one {
     border-style: solid;
-    border-width: 1px;
-
+    border-width: 3px;
 }
 
 .left-words-two {
