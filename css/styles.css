@@ -6,11 +6,11 @@ hr{
     background-color: black;
     border: none;
 }
-.hr-one {
+.ticket__left__line-two__hr-one {
     margin: -10px 0 0px 0;
-}.hr-two {
+}.ticket__left__line-three__hr-two {
     margin: -20px 0 40px 0;
-}.hr-three {
+}.ticket__left__hr-three {
     margin: 35px 0 40px 0;
 }
 @font-face {
@@ -93,15 +93,15 @@ hr{
     text-align: center;
 }
 
-.left-side {
+.ticket__left {
     margin: 25px 5px 20px 30px;
 }
 
-.right-side {
+.ticket__right {
     margin: 25px 20px 50px 0px;
     writing-mode: vertical-rl;
 }
-.right-words-one{
+.ticket__right__line-one{
     font-family: 'Special Elite';
     font-style: normal;
     font-weight: 400;
@@ -111,27 +111,28 @@ hr{
     transform: scale(1.5, 1);
     line-height: 0px;
 }
-.right-words-two{
+.ticket__right__line-two{
     font-family: "MunsonBold";
     border-left: 2px solid;
     font-size: 190%;
     line-height: 15px;
 }
-.right-words-three{
+.ticket__right__line-three{
     font-family: "MunsonBold";
     border-left: 2px solid;
     font-size: 250%;
     line-height: 0px;
     word-spacing: 15px;
+    
 }
-.right-words-four{
+.ticket__right__line-four{
     font-family: "Trocchi-Bold";
     border-left: 2px solid;
     font-size: 170%;
     line-height: 10px;
 }
 
-.right-words-five {
+.ticket__right__line-five {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 900;
@@ -140,12 +141,12 @@ hr{
     
 }
 
-.left-words-one {
+.ticket__left__line-one {
     border-style: solid;
     border-width: 3px;
 }
 
-.left-words-two {
+.ticket__left__line-two {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -156,7 +157,7 @@ hr{
     line-height: 20px;
 }
 
-.left-words-three {
+.ticket__left__line-three {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 700;
@@ -167,11 +168,11 @@ hr{
     line-height: 20px;
 }
 
-.tuesday {
+.ticket__left__line-three__tuesday {
     transform: scale(1.1, 1);
 }
 
-.left-words-four {
+.ticket__left__line-four {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 700;
@@ -182,7 +183,7 @@ hr{
     line-height: 20px;
 }
 
-.left-words-five {
+.ticket__left__line-five {
     font-family: 'Alfa Slab One';
     font-style: normal;
     font-weight: 400;
@@ -193,7 +194,7 @@ hr{
     
 }
 
-.left-words-six {
+.ticket__left__line-six {
     font-family: 'Special Elite';
     font-style: normal;
     font-weight: 400;
