@@ -10,6 +10,8 @@ hr{
     margin: -10px 0 0px 0;
 }.hr-two {
     margin: -20px 0 40px 0;
+}.hr-three {
+    margin: 35px 0 40px 0;
 }
 @font-face {
     font-family: "Trocchi-Bold";
@@ -198,7 +200,6 @@ hr{
     word-spacing: 15px;
     font-size: 300%;
     transform: scale(1, 1.5);
-    border-top: 2px solid;
     margin-top: 50px;
     line-height: 20px;
 }
