@@ -152,6 +152,7 @@ hr{
     word-spacing: 10px;
     margin-top: -15px;
     margin-bottom: -20px;
+    line-height: 20px;
 }
 
 .left-words-three {
@@ -162,6 +163,7 @@ hr{
     word-spacing: 30px;
     margin-top: -15px;
     margin-bottom: -20px;
+    line-height: 20px;
 }
 
 .tuesday {
@@ -175,7 +177,8 @@ hr{
     word-spacing: 15px;
     font-size: 180%;
     transform: scale(1.25, 1);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    line-height: 20px;
 }
 
 .left-words-five {
@@ -185,6 +188,8 @@ hr{
     word-spacing: 15px;
     font-size: 160%;
     transform: scale(1, 3);
+    margin-bottom: 0px;
+    
 }
 
 .left-words-six {
@@ -194,5 +199,15 @@ hr{
     word-spacing: 15px;
     font-size: 300%;
     transform: scale(1, 1.5);
-    margin-top: -50px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    margin-top: 50px;
+    line-height: 20px;
+}
+
+.pioneer_margin {
+    padding-bottom: -50px;
 }
