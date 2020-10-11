@@ -98,7 +98,7 @@ hr{
 }
 
 .right-side {
-    margin: 25px 20px 70px 0px;
+    margin: 25px 20px 50px 0px;
     writing-mode: vertical-rl;
 }
 .right-words-one{
@@ -109,7 +109,7 @@ hr{
     margin-right: 160px;
     font-size: 300%;
     transform: scale(1.5, 1);
-    line-height: 15px;
+    line-height: 0px;
 }
 .right-words-two{
     font-family: "MunsonBold";
