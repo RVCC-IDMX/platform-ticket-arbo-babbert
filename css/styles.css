@@ -2,7 +2,7 @@ body {
     background-color: #f1f1e5;
 }
 hr{
-    height: 1px;
+    height: 2px;
     background-color: black;
     border: none;
 }
@@ -98,45 +98,39 @@ hr{
     font-family: 'Special Elite';
     font-style: normal;
     font-weight: 400;
-    border-style: solid;
-    border-bottom-style: none;
-    border-left: none;
-    border-top: none;
-    border-width: 1px;
+    border-right: 2px solid;
     margin-right: 160px;
     font-size: 300%;
     transform: scale(1.5, 1);
+    line-height: 15px;
 }
 .right-words-two{
     font-family: "MunsonBold";
-    border-style: solid;
-    border-bottom-style: none;
-    border-right: none;
-    border-top: none;
-    border-width: 1px;
-    font-size: 130%;
+    border-left: 2px solid;
+    font-size: 190%;
+    line-height: 15px;
 }
 .right-words-three{
     font-family: "MunsonBold";
-    border-style: solid;
-    border-bottom-style: none;
-    border-right: none;
-    border-top: none;
-    border-width: 1px;
+    border-left: 2px solid;
+    font-size: 250%;
+    line-height: 0px;
+    word-spacing: 15px;
 }
 .right-words-four{
     font-family: "Trocchi-Bold";
-    border-style: solid;
-    border-bottom-style: none;
-    border-right: none;
-    border-top: none;
-    border-width: 1px;
+    border-left: 2px solid;
+    font-size: 170%;
+    line-height: 10px;
 }
 
 .right-words-five {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 900;
+    line-height: 20px;
+    transform: scale(1.0, 1.5);
+    
 }
 
 .left-words-one {
@@ -199,11 +193,7 @@ hr{
     word-spacing: 15px;
     font-size: 300%;
     transform: scale(1, 1.5);
-    border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    border-width: 1px;
+    border-top: 2px solid;
     margin-top: 50px;
     line-height: 20px;
 }
