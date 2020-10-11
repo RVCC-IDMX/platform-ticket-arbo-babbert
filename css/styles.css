@@ -6,6 +6,11 @@ hr{
     background-color: black;
     border: none;
 }
+.hr-one {
+    margin: -10px 0 0px 0;
+}.hr-two {
+    margin: -20px 0 40px 0;
+}
 @font-face {
     font-family: "Trocchi-Bold";
     src: url("../fonts/Trocchi-Bold.woff2") format("woff2"),
