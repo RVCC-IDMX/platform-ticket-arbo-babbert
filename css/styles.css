@@ -150,14 +150,22 @@ hr{
     font-weight: 700;
     font-size: 130%;
     word-spacing: 10px;
+    margin-top: -15px;
+    margin-bottom: -20px;
 }
 
 .left-words-three {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 700;
-    font-size: 200%;
+    font-size: 220%;
     word-spacing: 30px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+}
+
+.tuesday {
+    transform: scale(1.1, 1);
 }
 
 .left-words-four {
@@ -167,6 +175,7 @@ hr{
     word-spacing: 15px;
     font-size: 180%;
     transform: scale(1.25, 1);
+    margin-bottom: 50px;
 }
 
 .left-words-five {
@@ -185,4 +194,5 @@ hr{
     word-spacing: 15px;
     font-size: 300%;
     transform: scale(1, 1.5);
+    margin-top: -50px;
 }
